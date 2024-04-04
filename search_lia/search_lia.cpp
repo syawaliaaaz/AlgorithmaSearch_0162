@@ -50,7 +50,7 @@ void LinearSearch()
 				break;
 			}
 			i++
-			
+
 		}
 		if (i == n)
 			cout << "\n" << item << " not found in the array\n";
@@ -58,6 +58,8 @@ void LinearSearch()
 
 		cout << "\nContinue search (y/n): ";
 		cin >> ch;
-	}
+
+	} while ((ch == 'y') || (ch == 'Y'));
+}
 
 
